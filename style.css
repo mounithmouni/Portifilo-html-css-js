@@ -265,8 +265,8 @@ section {
 
 .about-containers {
   gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .about-details-container {
@@ -280,7 +280,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .arrow {
@@ -290,7 +290,7 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 4rem;
   flex: 1rem;
   background: white;
   border-radius: 2rem;
@@ -313,6 +313,7 @@ section {
 /* SKILLS SECTION */
 #skills {
   position: relative;
+  cursor: default;
 }
 
 .skills-sub-title {
@@ -330,11 +331,11 @@ section {
 
 .article-container {
   display: flex;
-  text-align: initial;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 2.5rem;
-  justify-content: space-around;
+  gap: 2rem;
+  justify-content: space-between;
+  text-align: initial;
 }
 
 article {
@@ -344,10 +345,22 @@ article {
   gap: 0.5rem;
 }
 
+.cer{
+  display: flex;
+  width: 20rem;
+  /* justify-content: center; */
+  column-gap : 2rem;
+}
+
 article .icon {
   cursor: default;
 }
 
+.text-container{
+  margin-top: 10px;
+  padding: 10px 15px;
+  text-align: justify;
+}
 /* PROJECTS SECTION */
 #projects {
   position: relative;
@@ -359,9 +372,10 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  border: 1px solid black;
+  border-radius: 1rem;
   width: 90%;
-  height: 90%;
+  height: 50%;
 }
 
 .project-title {
