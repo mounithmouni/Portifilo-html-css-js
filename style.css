@@ -347,7 +347,7 @@ article {
 
 .cer{
   display: flex;
-  width: 20rem;
+  min-width: fit-content;
   column-gap : 2rem;
 }
 
